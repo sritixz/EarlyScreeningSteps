@@ -104,7 +104,7 @@ export default function ReviewScreening() {
       <div className="page-header">
         <div>
           <span className="eyebrow">
-            <Link to="/">← Worklist</Link>
+            <Link to="/dashboard">← Worklist</Link>
           </span>
           <h1>{screening.childId?.name}</h1>
         </div>
