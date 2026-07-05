@@ -3,14 +3,14 @@ import { useAuth } from '../context/AuthContext.jsx';
 
 const NAV_BY_ROLE = {
   parent: [
-    { to: '/', label: 'My children', end: true },
+    { to: '/dashboard', label: 'My children', end: true },
     { to: '/screenings/new', label: 'Start a screening' },
   ],
   reviewer: [
-    { to: '/', label: 'My worklist', end: true },
+    { to: '/dashboard', label: 'My worklist', end: true },
   ],
   admin: [
-    { to: '/', label: 'Overview', end: true },
+    { to: '/dashboard', label: 'Overview', end: true },
     { to: '/admin/applications', label: 'Reviewer applications' },
     { to: '/admin/urgent', label: 'Urgent cases' },
   ],
