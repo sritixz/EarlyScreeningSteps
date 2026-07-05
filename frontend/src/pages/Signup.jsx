@@ -38,9 +38,9 @@ export default function Signup() {
     try {
       const user = await signup({ ...form, role });
       if (user.role === 'reviewer') {
-        navigate('/');
+        navigate('/dashboard');
       } else {
-        navigate('/');
+        navigate('/dashboard');
       }
     } catch (err) {
       setError(getErrorMessage(err));
